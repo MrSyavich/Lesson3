@@ -5,11 +5,12 @@
 def function(name, age, city):
     print('{}, {} год(а), проживает в городе {}'.format(name, age, city))
 
+
 x = input('Введите имя ')
 y = input('Введите год рождения ')
 z = input('Город ')
 
-function(x,y,z)
+function(x, y, z)
 print()
 
 
@@ -18,17 +19,19 @@ print()
 
 import random
 
-a = random.randint(-100,100)
-b = random.randint(-100,100)
-c = random.randint(-100,100)
+a = random.randint(-100, 100)
+b = random.randint(-100, 100)
+c = random.randint(-100, 100)
 
-print(a,b,c)
+print(a, b, c)
 
-def maxfunk(x,y,z):
-    m = (max(x,y,z))
+
+def maxfunk(x, y, z):
+    m = (max(x, y, z))
     return m
 
-print('Наибольшее число:', maxfunk(a,b,c))
+
+print('Наибольшее число:', maxfunk(a, b, c))
 print()
 
 
@@ -45,6 +48,7 @@ def strlong(args):
         else:
             pass
     return maxlen
+
 
 name = ['Глеб Жиглов', 'Петров Сухоруков', 'Владимир Владимирович', 'Вячеслав Кодд']
 
